@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GarageDatabaseModelStoreContainer" CdmEntityContainer="DBModel">
+    <EntitySetMapping Name="VehicleDataTable">
+      <EntityTypeMapping TypeName="GarageDatabaseModel.VehicleDataTable">
+        <MappingFragment StoreEntitySet="VehicleDataTable">
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="Make" ColumnName="Make" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Year" ColumnName="Year" />
+          <ScalarProperty Name="EngineSpecs" ColumnName="EngineSpecs" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
